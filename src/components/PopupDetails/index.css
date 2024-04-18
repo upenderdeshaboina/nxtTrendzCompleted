@@ -1,0 +1,79 @@
+.payments-container {
+  padding: 20px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9alObcF-_h6CoBmBdi0tfMujOmB0Q4W5nqTROISI09Q&s');
+  background-size: cover;
+  width: 600px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 576px) {
+  .payments-container {
+    width: 400px;
+    background-size: cover;
+  }
+}
+* {
+  font-family: roboto;
+}
+.payments-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: roboto;
+  align-self: center;
+}
+
+.payments-sub-heading {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.payment-method-inputs {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.payment-method-input-container {
+  margin-bottom: 10px;
+}
+
+.payment-method-input {
+  margin-right: 10px;
+}
+
+.payment-method-label {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.disabled-label {
+  color: #999;
+  cursor: not-allowed;
+}
+
+.order-details {
+  margin-top: 20px;
+}
+
+.confirm-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.success-message {
+  font-size: 18px;
+  color: #28a745;
+  align-self: center;
+  font-weight: bold;
+}
